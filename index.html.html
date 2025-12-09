@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Línea de Tiempo - Proyecto Rico Mora</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+  }
+  h1 {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  .timeline {
+    position: relative;
+    max-width: 900px;
+    margin: auto;
+  }
+  .timeline::after {
+    content: "";
+    position: absolute;
+    width: 4px;
+    background: #2c3e50;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -2px;
+  }
+  .entry {
+    padding: 15px;
+    background: white;
+    position: relative;
+    width: 45%;
+    border-radius: 6px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+    margin: 20px 0;
+  }
+  .left {
+    left: 0;
+  }
+  .right {
+    left: 55%;
+  }
+  .entry::after {
+    content: "";
+    position: absolute;
+    top: 15px;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: #2980b9;
+    border: 2px solid #1f3f60;
+  }
+  .left::after { right: -20px; }
+  .right::after { left: -20px; }
+  .date {
+    font-weight: bold;
+    color: #2c3e50;
+    margin-bottom: 5px;
+  }
+  .category {
+    font-size: 14px;
+    font-weight: bold;
+    color: #555;
+  }
+  .summary {
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  .reference {
+    font-size: 12px;
+    color: #888;
+    margin-top: 3px;
+  }
+</style>
+</head>
+<body>
+<h1>Línea de Tiempo - Proyecto Minero Rico Mora</h1>
+<div class="timeline">
+
+<div class="entry left"><div class="date">12/08/2009</div><div class="category">Compañía Rico Mora</div><div class="summary">Suscripción del contrato de concesión IH8-10541 para explotación de minerales en Yalí.</div><div class="reference">IH8-10541</div></div>
+<div class="entry right"><div class="date">28/07/2015</div><div class="category">Título minero</div><div class="summary">Resolución que declaró suspensión de obligaciones dentro del contrato de concesión.</div><div class="reference">Resolución No. S201500290273 (notificada 14-ago-2015)</div></div>
+<div class="entry left"><div class="date">14/08/2016</div><div class="category">Título minero</div><div class="summary">Período de suspensión de obligaciones inscrito en Registro Minero.</div><div class="reference">(relacionado con IH8-10541)</div></div>
+<div class="entry right"><div class="date">27/02/2020</div><div class="category">Compañía Rico Mora</div><div class="summary">Solicitud de licencia ambiental</div><div class="reference">160ZF-COE2002-6660</div></div>
+<div class="entry left"><div class="date">14/04/2020</div><div class="category">Autoridad Ambiental</div><div class="summary">Se requirió complementar el Formulario Único y se otorgó una ampliación del plazo para entregar la información.</div><div class="reference">160ZF-ADM2004-1466</div></div>
+<div class="entry right"><div class="date">08/07/2020</div><div class="category">Compañía Rico Mora</div><div class="summary">Respuesta a requerimientos y entrega del complemento del Estudio de Impacto Ambiental – EIA</div><div class="reference">160ZF-COE2007-18190</div></div>
+<div class="entry left"><div class="date">03/09/2020</div><div class="category">Autoridad Ambiental</div><div class="summary">Informe técnico que evaluó el EIA sin visita de campo por la emergencia</div><div class="reference">160ZF-COE2007-18190</div></div>
+<div class="entry right"><div class="date">09/09/2020</div><div class="category">Autoridad Ambiental</div><div class="summary">Se declaró completa la información y posteriormente se negó la solicitud de licencia ambiental.</div><div class="reference">160ZF-ADM2009-4528</div></div>
+<div class="entry left"><div class="date">01/10/2020</div><div class="category">Autoridad Ambiental</div><div class="summary">Se interpuso recurso de reposición y se entregó información</div><div class="reference">160ZF-COE2010-28335 • 160ZF-RES2009-5113</div></div>
+<div class="entry right"><div class="date">15/10/2020</div><div class="category">Autoridad Ambiental</div><div class="summary">Se ordenó evaluar la información del recurso y continuar el trámite con requerimientos adicionales.</div><div class="reference">160ZF-ADM2010-5278 • 160ZF-IT2105-4882</div></div>
+<div class="entry left"><div class="date">10/05/2021</div><div class="category">Autoridad Ambiental</div><div class="summary">Se emitió memorando solicitando información sobre proyectos para destinar la inversión del 1%.</div><div class="reference">60ZF-MEM2105-3220</div></div>
+<div class="entry right"><div class="date">26/05/2021</div><div class="category">Autoridad Ambiental</div><div class="summary">Revocación de negación y retrotrae el trámite a solicitud de información adicional.</div><div class="reference">160ZF-RES2105-2976 • 160ZF-RES2009-5113 • 160ZF-ADM2009-4528</div></div>
+<div class="entry left"><div class="date">04/06/2021</div><div class="category">Autoridad Ambiental</div><div class="summary">Se solicitó por única vez la información complementaria requerida en la evaluación técnica.</div><div class="reference">160ZF-COI2106-13403 • 160ZF-ACT2106-2684</div></div>
+<div class="entry right"><div class="date">12/08/2021</div><div class="category">Autoridad Ambiental</div><div class="summary">Se presentó la respuesta a los requerimientos complementarios.</div><div class="reference">160ZF-COE2108-29750 • 160ZF-ACT2106-2684</div></div>
+<div class="entry left"><div class="date">13/10/2021</div><div class="category">Título Minero</div><div class="summary">Se inscribió el acta que adicionó materiales de construcción al contrato IH8-10541.</div><div class="reference">Acta de Adición • Resolución 2020060058558</div></div>
+<div class="entry right"><div class="date">28/10/2021</div><div class="category">Autoridad Ambiental</div><div class="summary">Se declaró reunida la información para decidir la licencia ambiental del proyecto Mina Malabrigo.</div><div class="reference">N° IH8-10541</div></div>
+<div class="entry left"><div class="date">29/10/2021</div><div class="category">Autoridad Ambiental</div><div class="summary">Se otorgó la Licencia Ambiental y permisos asociados para el proyecto Mina Malabrigo.</div><div class="reference">160ZF-RES2110-7054</div></div>
+<div class="entry right"><div class="date">22/11/2021</div><div class="category">Autoridad Ambiental</div><div class="summary">Respuesta al memorando 160ZF-MEM2105-3220 (inversión forzosa del 1%).</div><div class="reference">160ZF-MEM2105-3220</div></div>
+<div class="entry left"><div class="date">26/08/2022</div><div class="category">Autoridad Ambiental</div><div class="summary">Solicitud de inscripción en el RUA mediante comunicado.</div><div class="reference">110-COE2208-29656</div></div>
+<div class="entry right"><div class="date">26/10/2022</div><div class="category">Compañía Rico Mora</div><div class="summary">Radicación del Informe de Cumplimiento Ambiental ICA No. 1.</div><div class="reference">160ZF-COE2210-37319</div></div>
+<div class="entry left"><div class="date">15/11/2022</div><div class="category">Compañía Rico Mora</div><div class="summary">Respuesta a requerimientos de la autoridad ambiental.</div><div class="reference">160ZF-COE2211-39545</div></div>
+<div class="entry right"><div class="date">07/12/2022</div><div class="category">Autoridad Ambiental</div><div class="summary">Emisión del Informe Técnico de Control con oportunidades de mejora.</div><div class="reference">160ZF-IT2212-17329 • 160ZF-RES2110-7054</div></div>
+<div class="entry left"><div class="date">27/12/2022</div><div class="category">Autoridad Ambiental</div><div class="summary">Acto Administrativo para requerir cumplimiento de obligaciones de la licencia ambiental.</div><div class="reference">040-ADM2212-11629</div></div>
+<div class="entry right"><div class="date">31/01/2023</div><div class="category">Compañía Rico Mora</div><div class="summary">Presentación de la Autodeclaración TUA 2022.</div><div class="reference">60ZF-COE2301-4082</div></div>
+<div class="entry left"><div class="date">08/02/2023</div><div class="category">Autoridad Ambiental</div><div class="summary">Informe Técnico: No aceptación de volúmenes reportados en la TUA.</div><div class="reference">160ZF-IT2302-1072</div></div>
+<div class="entry right"><div class="date">10/04/2023</div><div class="category">Compañía Rico Mora</div><div class="summary">Respuesta parcial a requerimientos</div><div class="reference">160ZF-COE2304-14187</div></div>
+<div class="entry left"><div class="date">01/06/2023</div><div class="category">Compañía Rico Mora</div><div class="summary">Informe de seguimiento a la Licencia Ambiental (jul–dic 2022)</div><div class="reference">160ZF-COE2306-22215</div></div>
+<div class="entry right"><div class="date">09/06/2023</div><div class="category">Compañía Rico Mora</div><div class="summary">Presentación del Plan de Manejo Integral de Residuos Sólidos</div><div class="reference">160ZF-COE2306-23652</div></div>
+<div class="entry left"><div class="date">24/08/2023</div><div class="category">Compañía Rico Mora</div><div class="summary">Presentación del Informe de Seguimiento Ambiental ene–jun 2023</div><div class="reference">040-COE2308-35051</div></div>
+<div class="entry right"><div class="date">25/10/2023</div><div class="category">Autoridad Ambiental</div><div class="summary">Informe Técnico de Control y Seguimiento tras visita del 12 jul 2023</div><div class="reference">160ZF-IT2310-15445</div></div>
+<div class="entry left"><div class="date">17/11/2023</div><div class="category">Autoridad Ambiental</div><div class="summary">Acto Administrativo solicitando subsanar obligaciones ambientales.</div><div class="reference">040-ADM2311-10806</div></div>
+<div class="entry right"><div class="date">20/03/2024</div><div class="category">Compañía Rico Mora</div><div class="summary">Respuesta parcial a los requerimientos del Acto 040-ADM2311-10806.</div><div class="reference">040-COE2403-11349</div></div>
+
+</div>
+</body>
+</html>
